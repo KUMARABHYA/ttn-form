@@ -1,0 +1,92 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <div style="    margin-top: 20px;">
+        <h1 style="text-align: left;">TO THE NEW</h1>
+        <div id="menu">
+            <ul>
+                <li>Home</li>
+                <li>Quick Help</li>
+            </ul>
+        </div>
+    </div>
+    <hr style="margin-bottom: 19px;">
+    <!-- <div> -->
+    <div id="box">
+        <header>
+            <h2>Bug Report</h2>
+        </header>
+        <form action="">
+            <label for="title">Title:*</label><br>
+            <input type="text" id="title" name="Title">
+            <br>
+            <br>
+
+            <label for="desc">Description:*</label><br>
+            <input type="text" id="desc" name="Description" style="height: 90px;">
+            <br>
+            <br>
+
+            <label for="os">Operating System:*</label><br>
+            <select name="operating-system" id="os">
+            <option value="windows">Windows XP</option>
+            <option value="linux">Linux</option>
+            <option value="mac-os">Mac OS</option>
+            </select>
+            <br><br>
+
+            <label for="prod">Product:*</label><br>
+            <select name="product" id="prod">
+            <option value="Formoid">Formoid</option>
+            <option value="jotform">JotForm</option>
+            <option value="pform">pForm</option>
+            </select>
+            <br><br>
+
+            <label for="version">Version:*</label><br>
+            <input type="text" style="width: 40%;" id="version" name="Version">
+            <br><br>
+
+            <label for="license">License</label><br>
+            <input type="radio" id="free" value="free">
+            <label for="free">Free</label>
+            <input type="radio" id="business" value="business">
+            <label for="business">Business</label>
+            <br><br>
+
+            <label for="sev">Severity</label><br>
+            <select name="Severity" id="sev">
+            <option value="Critical">Critical</option>
+            <option value="jotform">JotForm</option>
+            <option value="pform">pForm</option>
+            </select>
+            <br><br>
+
+            <label for="attach">Attachments:</label><br>
+            <input type="text" style="width: 60%;">
+            <input type="file" id="myFile" name="Filename">
+
+
+        </form>
+        <footer>
+            <button>Send</button>
+
+        </footer>
+        <!-- </div> -->
+    </div>
+
+</body>
+
+</html>
